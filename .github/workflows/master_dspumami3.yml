@@ -9,6 +9,9 @@ on:
       - master
   workflow_dispatch:
 
+env:
+  DATABASE_URL: "postgres://neville:silenceIkillYOU4@postgres-dsp-dev2.postgres.database.azure.com:5432/umami?sslmode=require"
+
 jobs:
   build:
     runs-on: ubuntu-latest
