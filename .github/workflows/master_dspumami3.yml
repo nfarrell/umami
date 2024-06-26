@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  DATABASE_URL: "postgres://neville:silenceIkillYOU4@postgres-dsp-dev2.postgres.database.azure.com:5432/umami?sslmode=require"
+  DATABASE_URL: "postgres://neville:silenceIkillYOU4@postgres-dsp-dev2.postgres.database.azure.com:5432/postgres?sslmode=require"
 
 jobs:
   build:
